@@ -1,0 +1,107 @@
+
+# Python & Bytecode
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+
+# Distribution / Packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# Virtual Environments
+
+.env
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.pyc
+*.pkl
+
+
+# VS Code
+
+.vscode/
+*.code-workspace
+
+# PyCharm (IDE)
+.idea/
+*.iml
+
+
+# OS junk files
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+
+# Environment variables
+
+.env
+.env.local
+.env.*.local
+
+
+# Testing & Coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.cover
+
+
+# MyPy, Pyre, etc.
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+
+# PROJECT-SPECIFIC (Crucial!)
+
+
+# 1.  Kaggle dataset 
+data/creditcard.csv
+
+# 2. Trained model files
+models/*.pkl
+models/*.joblib
+
+# 3.raw logs or temp outputs
+*.log
+output/
